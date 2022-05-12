@@ -1,4 +1,4 @@
-#[link(name = "return_one")]
+#[link(name = "asm_main")]
 extern "C" {
 	fn return_one() -> u64;
 }
